@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 90%; /* Adjust the width as needed */
+  max-width: 450px; /* Add a maximum width to ensure readability on larger screens */
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5%; /* Use percentage-based padding */
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 40%; /* Use percentage-based width */
+  max-width: 200px; /* Add a maximum width to maintain aspect ratio */
+  height: auto; /* Allow height to adjust proportionally */
+}
+
+.box h1 {
+  font-size: 4vw; /* Use vw (viewport width) unit for responsive font size */
+  letter-spacing: 0.4vw; /* Adjust letter-spacing proportionally */
+  font-weight: 100;
+}
+
+.box h5 {
+  font-size: 2vw; /* Use vw (viewport width) unit for responsive font size */
+  letter-spacing: 0.3vw; /* Adjust letter-spacing proportionally */
+  font-weight: 100;
+}
+
+.box p {
+  text-align: justify;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 6vw; /* Use vw (viewport width) unit for responsive font size */
+  transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+  color: #b9b9b9;
+}
